@@ -1,8 +1,3 @@
-/* =============================================
-   SHORTLY — style.css
-   ============================================= */
-
-/* ---------- CSS Variables ---------- */
 :root {
   --cyan: #2ACFCF;
   --cyan-hover: #9BE3DF;
@@ -21,7 +16,6 @@
   --transition: 0.2s ease;
 }
 
-/* ---------- Global Reset ---------- */
 *,
 *::before,
 *::after {
@@ -57,7 +51,7 @@ img {
   display: block;
 }
 
-/* ---------- Buttons ---------- */
+/* Buttons */
 .shortly-btn {
   font-family: var(--font-body);
   font-weight: var(--fw-bold);
@@ -103,7 +97,7 @@ img {
   border-radius: 10px;
 }
 
-/* ---------- NAV ---------- */
+/* NAV */
 .shortly-nav {
   position: relative;
   z-index: 100;
@@ -283,7 +277,7 @@ img {
   overflow: visible;
 }
 
-/* Mobile: hero stacks, illustration on top */
+/* Mobile resp */
 @media (max-width: 767px) {
   .shortly-hero {
     padding: 32px 0 60px;
@@ -312,7 +306,7 @@ img {
   }
 }
 
-/* ---------- SHORTENER ---------- */
+/*SHORTEN */
 .shortly-shortener {
   position: relative;
   z-index: 10;
@@ -404,7 +398,7 @@ img {
   }
 }
 
-/* ---------- RESULTS ---------- */
+/* RESULTS */
 .shortly-results {
   background-color: var(--light-gray);
   padding-top: 24px;
@@ -513,7 +507,7 @@ img {
   }
 }
 
-/* ---------- STATS ---------- */
+/*STATS */
 .shortly-stats {
   background-color: var(--light-gray);
   padding: 80px 0 100px;
@@ -644,7 +638,7 @@ img {
   }
 }
 
-/* ---------- CTA BANNER ---------- */
+/* CTA BANNER */
 .shortly-cta {
   background-color: var(--dark-violet);
   padding: 60px 0;
@@ -734,7 +728,7 @@ img {
   }
 }
 
-/* ---------- Loading spinner ---------- */
+/*Loading spinner*/
 .shortly-shortener__loading {
   display: none;
   align-items: center;
