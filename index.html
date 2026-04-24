@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<!-- <body>
+
+  Features
+  Pricing
+  Resources
+
+  Login
+  Sign Up
+
+  More than just shorter links
+
+  Build your brand’s recognition and get detailed insights 
+  on how your links are performing.
+
+  Get Started
+  
+  Shorten a link here...
+
+  Shorten It!
+
+  Advanced Statistics
+
+  Track how your links are performing across the web with our 
+  advanced statistics dashboard.
+
+  Brand Recognition
+
+  Boost your brand recognition with each click. Generic links don’t 
+  mean a thing. Branded links help instil confidence in your content.
+
+  Detailed Records
+
+  Gain insights into who is clicking your links. Knowing when and where 
+  people engage with your content helps inform better decisions.
+
+  Fully Customizable
+
+  Improve brand awareness and content discoverability through customizable 
+  links, supercharging audience engagement.
+
+  Boost your links today
+
+  Get Started
+
+  Features
+
+  Link Shortening
+  Branded Links
+  Analytics
+
+  Resources
+
+  Blog
+  Developers
+  Support
+
+  Company
+
+  About
+  Our Team
+  Careers
+  Contact -->
+
+
+
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg container py-3">
+  <a class="navbar-brand fw-bold">Shortly</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">Features</li>
+      <li class="nav-item ms-3">Pricing</li>
+      <li class="nav-item ms-3">Resources</li>
+    </ul>
+    <div>
+      <button class="btn btn-link">Login</button>
+      <button class="btn btn-primary">Sign Up</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="container text-center py-5">
+  <h1>More than just shorter links</h1>
+  <p class="text-muted">
+    Build your brand’s recognition and get detailed insights on how your links are performing.
+  </p>
+  <button class="btn btn-primary">Get Started</button>
+</section>
+
+<!-- SHORTENER -->
+<section class="container mb-4">
+  <form id="form" class="row g-2 p-3 bg-dark rounded">
+    <div class="col-md-9">
+      <input id="urlInput" class="form-control" placeholder="Shorten a link here..." />
+      <small id="error" class="text-danger d-none">Please add a link</small>
+    </div>
+    <div class="col-md-3 d-grid">
+      <button class="btn btn-primary">Shorten It!</button>
+    </div>
+  </form>
+</section>
+
+<!-- RESULTS -->
+<section class="container mb-5">
+  <div id="results"></div>
+</section>
+
+<!-- FEATURES -->
+<section class="container text-center py-5">
+  <h2>Advanced Statistics</h2>
+  <p class="text-muted">
+    Track how your links are performing across the web with our advanced statistics dashboard.
+  </p>
+
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <h5>Brand Recognition</h5>
+      <p>Boost your brand recognition with each click.</p>
+    </div>
+    <div class="col-md-4">
+      <h5>Detailed Records</h5>
+      <p>Gain insights into who is clicking your links.</p>
+    </div>
+    <div class="col-md-4">
+      <h5>Fully Customizable</h5>
+      <p>Improve brand awareness and discoverability.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-dark text-white text-center py-5">
+  <h3>Boost your links today</h3>
+  <button class="btn btn-primary mt-2">Get Started</button>
+</section>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Eduaina Ighalo</a>.
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
